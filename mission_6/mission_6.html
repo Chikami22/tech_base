@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn Geography</title>
+</head>
+<body>
+  <div style="background-color: rgb(78, 249, 78);">
+  <span style="font-size: 80px; color:rgb(255, 175, 47);"><div style="text-align: center;"><img src="地球儀.png" style="width:80px;">Learn Geography<img src="鉛筆.png" style="width:80px;"></div></span><br></div>
+  <span style="font-size: 50px;"><div style="text-align: center;">国一覧</div></span><br>
+
+        <ul style="display: flex; flex-wrap: wrap; list-style: none; padding: 0; margin: 0;">
+            <li style="flex: 0 0 50%; text-align: center; margin-bottom: 20px;">
+
+              <div>日本</div>
+                <a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC" target="_blank">
+                  <img src="日本国旗.png" style="width: 100px;" alt="日本">
+        </a></li>
+        
+            <li style="flex: 0 0 50%; text-align: center; margin-bottom: 20px;">
+              <div>ニュージーランド</div>
+                <a href="https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89" target="_blank">
+                  <img src="ニュージーランド.png" style="width: 100px;" alt="ニュージーランド">
+        </a></li>
+            <li style="flex: 0 0 50%; text-align: center; margin-bottom: 20px;">
+              <div>アメリカ合衆国</div>
+                <a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD" target="_blank">
+                  <img src="アメリカ.png" style="width: 100px;" alt="アメリカ合衆国">
+        </a></li>
+            <li style="flex: 0 0 50%; text-align: center; margin-bottom: 20px;">
+              <div>中華人民共和国</div>
+                <a href="https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD" target="_blank">
+                  <img src="中国.png" style="width: 100px;" alt="中華人民共和国">
+                </a>
+            <li style="flex: 0 0 50%; text-align: center; margin-bottom: 20px;">
+              <div>イギリス</div>
+               <a href="https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9" target="_blank">
+                 <img src="イギリス.png" style="width: 100px;" alt="イギリス">
+               </a>
+            </li>
+            <li style="flex: 0 0 50%; text-align: center; margin-bottom: 20px;">
+              <div>韓国</div>
+               <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD" target="_blank">
+                 <img src="韓国.png" style="width: 100px;" alt="イギリス">
+               </a>
+            </li>
+        </li>        
+        </ul><br>
+        今後も順次追加予定<br><br>
+<br>
+  暗記タイム<br>
+  ランダムに表示される国名の情報をアウトプットしてみよう！<br>
+
+  <div id="country">Let's study!</div>
+  <button onclick="countryshow()">表示</button>
+
+  <!-- ここがお気に入り登録ボタン -->
+  <button onclick="addFavorite()">お気に入り登録</button>
+  <button onclick="removeFavorite()">お気に入り削除</button> 
+
+  <div id="favorite">お気に入り: なし</div>
+
+  <script src="mission_6.js"></script>
+
+</body>
+</html>
